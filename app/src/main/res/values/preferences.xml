@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General Category -->
+    <string name="preference_header_general_title">General</string>
+    <string name="preference_email_title">Email Address</string>
+    <string name="preference_email_summary">{email}</string>
+
+    <!-- Data Category -->
+    <string name="preference_header_data_title">Data Preferences</string>
+    <string name="preference_data_streaming_title">Allow Data Streaming</string>
+    <string name="preference_data_streaming_wifi_only_value">Wifi Only</string>
+    <string name="preference_data_caching_title">Allow Data Streaming</string>
+
+    <string name="wifi_only_value">w</string>
+    <string name="wifi_and_mobile_value">wm</string>
+
+    <string-array name="preference_data_streaming_values">
+        <item name="preference_data_streaming_wifi_only_value">@string/wifi_only_value</item>
+        <item name="preference_data_streaming_wifi_and_mobile_value">@string/wifi_and_mobile_value</item>
+    </string-array>
+
+    <string name="wifi_only_label">Wifi Only</string>
+    <string name="wifi_and_mobile_label">Wifi &amp; Mobile</string>
+
+    <string-array name="preference_data_streaming_list">
+        <item name="preference_data_streaming_wifi_only">@string/wifi_only_label</item>
+        <item name="preference_data_streaming_wifi_and_mobile">@string/wifi_and_mobile_label</item>
+    </string-array>
+</resources>
